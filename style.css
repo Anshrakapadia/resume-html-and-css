@@ -1,0 +1,285 @@
+* {
+    margin: 0px;
+    padding: 0px;
+    box-sizing: border-box;
+    scroll-behavior: smooth;
+    font-family: "Josefin Sans", sans-serif;
+
+
+}
+/* sidebar */
+.main {
+    height: 100vh;
+    max-width: 100vw;
+    background-color: white;
+    display: flex;
+
+}
+
+.side-bar {
+    width: 20%;
+    height: 100vh;
+    background-color: #bd5d38;
+    display: inline-block;
+    vertical-align: top;
+ 
+}
+
+.side-bar img {
+    width: 10rem;
+    height: 10rem;
+    border-radius: 50%;
+    border: 5px solid rgba(215, 195, 195, 0.73);
+    outline: 2px solid  rgba(170, 55, 55, 0.73);
+    margin: 75px 0px 50px 50px;
+
+}
+
+ul {
+    list-style-type: none;
+    text-transform: capitalize;
+    text-align: center;
+
+}
+
+ul li {
+    margin: 1em;
+}
+
+ul a {
+    text-decoration: none;
+    color: white;
+
+
+}
+
+ul :hover {
+    color: rgb(178, 158, 158);
+    text-shadow: 2px 2px 3px #e55ec1;
+}
+
+.work {
+    height: 100vh;
+    width: 80%;
+    background-color: white;
+    display: inline-block;
+    overflow: auto;
+
+}
+
+
+.first-heading {
+    font-size: 3.5rem;
+    margin:3em 0em 0em 1.5em ;
+    font-weight: bolder;
+    text-shadow: 2px 3px 3px #bd5d38;
+    letter-spacing: 2px;
+    text-transform: uppercase;
+}
+
+.sec-word {
+    color: #bd5d38;
+    text-shadow: 3px 3px 4px #000000;
+
+}
+
+.sec-head {
+    margin: 1em 1em 1em 5.5em;
+}
+
+.mail {
+
+    text-transform: capitalize;
+    color: #bd5d38;
+}
+
+.mail:hover {
+    color: rgb(149, 143, 143);
+}
+/* about */
+.about {
+    margin: 2em 3em 1em 5.5em;
+    color: #ababae;
+    
+}
+
+.icons{
+    height: 60px;
+    width: 60px;
+    border-radius: 50%;
+    background-color: gray;
+    color: white;
+    font-size: 2em;
+   padding-top: 14px;
+   margin:  22px 2px 270px  62px;
+    display: inline-block;
+    text-align: center;
+
+}
+
+.icon-change {
+    color: white;
+}
+.icon-change:hover{
+    color: black;
+}
+.icons:hover {
+    background-color: #bd5d38;
+    color: black;
+}
+
+/* experiance */
+.experience{
+    text-transform: uppercase;
+}
+ .experience h1{
+margin: 200px 1px 61px 54px ;
+font-size:40px;
+text-transform :uppercase;
+letter-spacing: normal;
+color:  #161719;
+text-shadow: 2px 3px 3px  rgb(12, 6, 6);;
+ }
+ .experience h1:hover{
+    text-shadow: 3px 3px 2px #bd5d38;
+ }
+.developer{
+    margin: 1px 1px 10px 53px;
+    font-size: 30px;
+}
+.developer-b{
+    margin: 1px 1px 10px 53px;
+    color: #ababae;
+}
+.duration{
+text-transform: none;
+font-size: 15px;
+margin-left: 32em;
+color: rgb(197, 64, 64);
+}
+.experience p{
+    color: #ababae;
+    text-transform: none;
+    margin: 15px 1px 63px 53px;
+}
+.third-para{
+    margin-bottom: 250px;
+}
+.education{
+    text-transform: uppercase;
+}
+.education h1{
+margin: 200px 1px 61px 54px ;
+font-size:40px;
+text-transform :uppercase;
+letter-spacing: normal;
+color:#161719 ;
+text-shadow: 2px 3px 3px  rgb(12, 6, 6);
+}
+.education h1:hover{
+    text-shadow: 3px 3px 2px #bd5d38;
+}
+
+.education h2{
+    margin: 1px 1px 10px 53px;
+    font-size: 27px;
+    
+}
+.education p{
+    color: #ababae;
+    text-transform: none;
+    margin: 15px 1px 63px 53px;
+}
+
+
+.tareekh{
+    text-transform: none;
+font-size: 15px;
+margin-left: 42em;
+color: rgb(197, 64, 64);
+}
+.tareekhhh{
+    text-transform: none;
+font-size: 15px;
+margin-left: 52em;
+color: rgb(197, 64, 64);
+}
+.skills h1{
+    margin: 200px 1px 61px 54px ;
+font-size:40px;
+text-transform :uppercase;
+letter-spacing: normal;
+color:  #161719;
+text-shadow: 2px 3px 3px  rgb(12, 6, 6);
+}
+.skills h1:hover{
+text-shadow: 3px 3px 2px #bd5d38;
+}
+.skills h2{
+    color: #4a4a4d;
+    text-transform: uppercase;
+    margin: 2px 1px 30px 53px;
+}
+.skill-icon{
+    display: flex;
+   
+}
+.skil{
+ 
+    font-size: 40px;
+    color: #9b9bb2;
+   
+}
+.skil-one{
+margin-left: 30px;
+font-size: 40px;
+}
+.skil:hover{
+    color: black;
+}
+.flow p{ 
+   color: #9b9bb2;
+   margin: 2px 1px 29px 48px;
+  
+}
+.flow i{
+    margin-right: 7px;
+}
+.interest h1{
+    margin: 200px 1px 51px 54px ;
+    font-size:40px;
+    text-transform :uppercase;
+    color:  #161719;
+    text-shadow: 2px 3px 3px  rgb(12, 6, 6);
+    
+
+}
+.interest h1:hover{
+    text-shadow: 3px 3px 2px #bd5d38;
+}
+.interest p{
+    color: #787884;
+    margin:1px 2px 45px 39px ;
+}
+.awards h1{
+    margin:200px 1px 48px 54px ;
+    text-shadow: 2px 3px 3px  rgb(12, 6, 6);
+    text-transform: uppercase;
+}
+.awards h1:hover{
+    text-shadow: 3px 3px 2px #bd5d38;
+}
+.awards p i{
+    color: goldenrod;
+    margin: 8px 9px;
+}
+.awards p {
+    color:#787884 ;
+    margin:5px 15px 13px 16px ;
+    align-content: center;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    
+}
